@@ -1,4 +1,4 @@
-package net.solarsocial.mudeomundo.common.di
+package net.solarsocial.changetheworld.common.di
 
 import android.content.Context
 import org.kodein.di.Kodein

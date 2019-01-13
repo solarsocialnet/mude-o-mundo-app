@@ -1,4 +1,4 @@
-package net.solarsocial.mudeomundo
+package net.solarsocial.changetheworld
 
 import org.junit.Test
 

@@ -15,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "net.solarsocial.mudeomundo"
+        applicationId "net.solarsocial.changetheworld"
         minSdkVersion sdkVersions.minSdk
         targetSdkVersion sdkVersions.targetSdk
         versionCode 1
