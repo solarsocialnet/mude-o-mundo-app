@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pt">
     <string name="app_name">Mude o Mundo</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
