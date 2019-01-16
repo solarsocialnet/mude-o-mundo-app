@@ -1,11 +1,12 @@
-package net.solarsocial.changetheworld
+package net.solarsocial.changetheworld.causes.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
+import net.solarsocial.changetheworld.R
 
-class MainActivity : AppCompatActivity() {
+class CausesActivity : AppCompatActivity() {
 
     private val navigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {

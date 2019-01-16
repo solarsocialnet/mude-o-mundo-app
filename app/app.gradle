@@ -26,6 +26,10 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField 'String', 'CAUSES_URL', "\"https://solarsocial.net/\""
+        }
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -36,11 +40,14 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    annotationProcessor annotationProcessor.glide
+
     implementation libraries.appCompat
     implementation libraries.constraintLayout
     implementation libraries.coroutinesAndroid
     implementation libraries.coroutinesCore
     implementation libraries.firebaseCore
+    implementation libraries.glide
     implementation libraries.gson
     implementation libraries.kodeinAndroid
     implementation libraries.kodeinJvm
@@ -50,6 +57,7 @@ dependencies {
     implementation libraries.material
     implementation libraries.okHttp
     implementation libraries.okHttpLoggingInterceptor
+    implementation libraries.pageIndicatorView
     implementation libraries.retrofit
     implementation libraries.retrofitCoroutinesAdapter
     implementation libraries.retrofitGsonConverter
